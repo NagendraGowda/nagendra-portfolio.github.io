@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+       <img src="photo/download.jpg" class="logo">
+        <ul id="sidemenu">
+            
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa fa-bars" onclick="openmenu()"></i>
+
+    </nav>
+    <div class="header-text">
+      <p>Full-Stack Developer</p>
+      <h1>Hi,I'm <span>Nagendra G </span><br> From Bangalore</h1>
+    </div>
+  </div>
+</div>
+
+<!-- ----------About-----------  -->
+<div id="About">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="photo/mypic.png.jpg">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Myself Nagendra G,I am a self taught developer,having good knowledge in FrontEnd and basic in BackEnd.
+          I worked on multiple core technology like HTML and CSS,javascript,Nodejs,C,Python,Java,SQL.
+          interest in learning more web technology and web Development.I am participating and doing more projects to get hand-on experience.
+        </p>
+      
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+              <li><span>C language</span><br>Basic Problems Solving</li>
+              <li><span>web Development</span><br>FrontEnd and BackEnd</li>
+              <li><span>Java</span><br>Basic Problems Solving</li>
+          </ul>
+        </div>       
+        <div class="tab-contents" id="experience">
+          <ul>
+              <li><span>Fresher</span><br></li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+              <li><span>Engineering</span><br>SEA College of Engineering and technology Bangalore</li>
+              <li><span>PUC</span><br>Government pu college Malur</li>
+              <li><span>10 Class</span><br>GJC Boys School Malur</li>
+          </ul>
+        </div>        
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-- --------------Services------------------ -->
+<div id="services">
+ <div class="container">
+  <h1 class=""sub-title>My Services</h1>
+  <div class="services-list">
+     <div>
+      <i class="fa fa-code"></i>
+      <h2>FrontEnd Web Design</h2>
+        <p>Front-end web development is the development of the graphical user interface of a website,
+          through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.</p>
+        <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa fa-crop-alt"></i>
+          <h2>DBMS mini projects</h2>
+            <p>A database management system (DBMS) is the software that interacts with end users, applications, and the database itself to capture and analyze the data.
+              The DBMS software additionally encompasses the core facilities provided to administer the database.</p>
+            <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa fa-app-store"></i>
+              <h2>Computer graphices projects</h2>
+                <p>Computer graphics deals with generating images with the aid of computers. Today,
+                   computer graphics is a core technology in digital photography, film, video games, cell phone and computer displays, 
+                   and many specialized applications.</p>
+                <a href="#">Learn more</a>
+                </div>
+  </div>
+ </div>
+</div>
+<!-- ----------portfolio--------- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+      <img src="photo/covid-bed-slot.jpg">
+      <div class="layer">
+        <h3>Covid Bed Slot Booking</h3>
+        <p>The project was Covid bed slot booking,that will help patient in 
+          getting a hospital bed with as much ease as getting as a cab</p>
+          <a href="#"><i class="fa fa-external-link-alt"></i></a>
+      </div>
+     </div>
+     <div class="work">
+      <img src="photo/work-1.png">
+      <div class="layer">
+        <h3>Air show Computer graphics</h3>
+        <p>This project is about air show,where user can control the plane</p>
+          <a href="#"><i class="fa fa-external-link-alt"></i></a>
+      </div>
+        </div>
+      <div class="work">
+        <img src="photo/work-3.png">
+        <div class="layer">
+          <h3>Media and audio player</h3>
+          <p>The project is based on Mobile applications Development,where the application displays
+             media and audio player interface. 
+          </p>
+            <a href="#"><i class="fa fa-external-link-alt"></i></a>
+        </div>
+         </div>
+
+    </div>
+    <a href="https://github.com/NagendraGowda" class="btn">See More</a>
+  </div>
+</div>
+<!-- ----------contact---------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa fa-paper-plane"></i>nagendragowda392@gmail.com</p>
+        <p><i class="fa fa-phone-square-alt"></i>9880952935</p>
+        <div class="social-icons">
+          <a href="https://twitter.com/Nagendr09223629?t=7CLJpCnjYUzbVNhCLh7GeQ&s=09"><i class="fa fa-twitter-square"></i></a>
+          <a href="https://www.linkedin.com/in/nagendra-gowda-605825210"><i class="fa fa-linkedin"></i></a>
+          <a href="https://github.com/NagendraGowda"><i class="fa fa-github"></i></a>
+        </div>
+        <a href="photo/Mycv.pdf.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">`
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="your email" required>
+          <textarea name="Message"  rows="6" aria-placeholder="Your message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright received from <i class="fa fa-heart"></i>Nagendra Gowda</p>
+  </div>
+</div>
+<script>
+
+   var tablinks = document.getElementsByClassName("tab-links"); 
+   var tabcontents = document.getElementsByClassName("tab-contents");
+  
+   function opentab(tabname){
+    for(tablink of tablinks){
+       tablink.classList.remove("active-link"); 
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+
+   }
+
+
+</script>
+
+<script>
+   
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px"
+    }
+
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxRuFxaukzqTSixbjNpER6TPu_Ba8A2k8zznPSHARInbjQi4y1t3-BFD_3gWLzClAfk/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent Successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
